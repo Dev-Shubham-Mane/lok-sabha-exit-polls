@@ -1,0 +1,83 @@
+/* Style for header */
+header {
+    background-color: #1e88e5;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style for main content */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Style for sections */
+section {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Style for section headings */
+h2 {
+    color: #1e88e5;
+    margin-top: 0;
+}
+
+/* Style for footer */
+footer {
+    background-color: #1e88e5;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Style for exit poll table */
+#exitPollTable {
+    margin-top: 20px;
+}
+
+/* Style for table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style for table headers */
+th {
+    background-color: #1e88e5;
+    color: white;
+    padding: 10px;
+}
+
+/* Style for table cells */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Style for alternate table row background */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style for table responsive design */
+@media (max-width: 768px) {
+    table {
+        overflow-x: auto;
+    }
+}
+
+/* Style for image */
+#img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow effect */
+}
